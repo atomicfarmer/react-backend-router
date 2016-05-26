@@ -4,6 +4,6 @@ var App = require('./components/app');
 var Products = require('./components/Products');
 
 module.exports = [
-  <Route path="/" component={App}></Route>,
-  <Route path="/products" component={Products}></Route>
+  <Route path="/" template="index" component={App}></Route>,
+  <Route path="/products" template="index" component={Products}></Route>
 ]
